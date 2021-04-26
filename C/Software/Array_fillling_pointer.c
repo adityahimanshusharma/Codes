@@ -1,6 +1,6 @@
 /*
-This program generates random numbers and put them into array with the size
-given by the user.
+This program generates random numbers and put them into array with the
+size given by the user.
 The element number, their address in the memory and the values holding
 by the pointer are displayed
 */
