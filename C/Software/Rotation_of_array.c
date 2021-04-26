@@ -1,10 +1,11 @@
-//This program generates an array of size n and rotates the no. of steps given by the user.
+/*This program generates an array of size n and rotates the no. of steps given by the user.*/
 
 #include <stdio.h>
 
 void rotate(int x[], __uint8_t steps, __uint8_t size)
 {
-
+    //int f = sizeof(x)/sizeof(x[0]); printf("\n%d",f);
+    
     for (int i = 0; i < size; i++)
     {
         printf("\t%d", x[i]);
@@ -47,7 +48,7 @@ int main()
     printf("Enter no of Steps: ");
     scanf("\n%d", &x);
 
-    d = sizeof(set) / sizeof(set[0]);
+    d = sizeof(set);// / sizeof(set[0]);
 
     if (x > d)
         x = x % d;
